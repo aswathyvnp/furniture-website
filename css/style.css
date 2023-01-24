@@ -3,35 +3,94 @@
 * {
 	box-sizing: border-box;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
 }
 
 .container {
 	min-width: 0;
 	background-color: rgb(174, 178, 182);
+	padding: 15px 30px;
 }
 
 .overall {
-	width: 75%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgb(255, 255, 255);
 }
 .content {
-	width: 75%;
+	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 30px;
 }
 
 .main {
-	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+.main_head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 46px;
+}
+
+.main_head1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+}
+.sub_main {
+	padding: 30px 0;
+	padding-right: 10px;
+}
+
+.space_head {
+	margin: 30px 0;
+}
+.space {
+	margin-bottom: 10px;
+}
+
+.chair {
+	width: 309px;
+}
+.small {
+	font-size: 12px;
+}
+
+.chair2 {
+	width: 170px;
+}
+
+.sub_main2 {
+	padding: 14px;
+}
+
+.clm {
+	width: 35%;
+}
+
+.link {
+	font-size: 9px;
+	color: blue;
+}
+
+.hsmall {
+	font-size: 12px;
+}
+
+.two {
 	display: flex;
 	justify-content: space-between;
 }
 
-.sub {
-	padding: 10px;
-}
-
-.small {
-	font-size: small;
+.cart {
+	padding: 0 15px;
 }
