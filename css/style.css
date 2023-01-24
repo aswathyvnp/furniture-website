@@ -1,0 +1,37 @@
+/* Author: Aswathy */
+
+* {
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+	min-width: 0;
+	background-color: rgb(174, 178, 182);
+}
+
+.overall {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(255, 255, 255);
+}
+.content {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main {
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sub {
+	padding: 10px;
+}
+
+.small {
+	font-size: small;
+}
