@@ -8,17 +8,20 @@
 	line-height: 1;
 }
 
-.container {
-	min-width: 0;
-	background-color: rgb(174, 178, 182);
-	padding: 15px 30px;
+.mrg_top {
+	margin-top: 20px;
 }
 
-.overall {
+.mrg_btm {
+	margin-bottom: 20px;
+}
+
+.container {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgb(255, 255, 255);
+	padding: 50px 0;
 }
 .content {
 	width: 85%;
@@ -44,7 +47,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 50px;
+	gap: 41px;
 }
 .sub_main {
 	padding: 30px 0;
@@ -66,7 +69,7 @@
 }
 
 .chair2 {
-	width: 170px;
+	width: 180px;
 }
 
 .sub_main2 {
