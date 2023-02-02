@@ -2,26 +2,43 @@
 
 * {
 	box-sizing: border-box;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "Segoe UI", sans-serif;
 	margin: 0;
 	padding: 0;
-	line-height: 1;
 }
 
+#head_para {
+	padding-right: 19px;
+	font-weight: 450;
+}
+
+h1 {
+	line-height: 1.1;
+	font-weight: 650;
+	font-size: 35px;
+}
 .mrg_top {
 	margin-top: 20px;
 }
 
 .mrg_btm {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
+}
+
+.mrg_btm_head {
+	margin-bottom: 25px;
 }
 
 .container {
-	width: 80%;
+	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgb(255, 255, 255);
 	padding: 50px 0;
+	color: rgb(39, 39, 39);
+	border-bottom: solid 5px #0f6655;
+	margin-bottom: 30px;
+	word-spacing: -1px;
 }
 .content {
 	width: 85%;
@@ -40,36 +57,56 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 46px;
+	gap: 56px;
 }
 
 .main_head1 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 41px;
+	gap: 70px;
 }
-.sub_main {
+/* .sub_main {
 	padding: 30px 0;
-	padding-right: 10px;
-}
+} */
 
 .space_head {
-	margin: 30px 0;
-}
-.space {
-	margin-bottom: 10px;
+	margin: 33px 0;
+	font-size: 21px;
 }
 
 .chair {
-	width: 309px;
+	width: 375px;
+	border-radius: 12px;
 }
-.small {
-	font-size: 12px;
+
+.quote {
+	width: 200px;
+	border-radius: 10px;
+}
+
+.cntnt {
+	font-size: 16px;
+	line-height: 1.5;
+	color: rgb(116, 117, 117);
+	font-weight: 450;
+}
+
+.quote_cntnt {
+	font-size: 16px;
+	line-height: 1.5;
+	color: rgb(255, 255, 255);
+}
+
+.quote_athr {
+	font-size: 13px;
+	font-weight: lighter;
 }
 
 .chair2 {
-	width: 180px;
+	width: 225px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 .sub_main2 {
@@ -77,23 +114,78 @@
 }
 
 .clm {
-	width: 35%;
-}
-
-.link {
-	font-size: 9px;
-	color: blue;
-}
-
-.hsmall {
-	font-size: 12px;
+	width: 25%;
+	border-radius: 10px;
 }
 
 .two {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 10px;
+	align-items: baseline;
 }
 
 .cart {
 	padding: 0 15px;
+}
+
+#shop {
+	margin-top: 5px;
+}
+#shop,
+#shop2 {
+	background-color: #0f6655;
+	border-radius: 30px;
+	color: white;
+	font-weight: 400;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#shop2 {
+	padding: 4px 7px;
+}
+
+#shop1 {
+	background-color: #0f6655;
+	border-radius: 10px;
+	color: white;
+	padding: 10px 15px;
+}
+
+.copyright {
+	margin: 30px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.icon {
+	width: 10%;
+}
+
+.flask {
+	width: 15%;
+}
+
+.rel_icon {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 8px;
+}
+
+.rel_clm {
+	box-shadow: 3px 3px 20px -6px rgba(165, 164, 164, 0.89);
+	width: 225px;
+}
+
+.beaker {
+	width: 20px;
+	stroke: #0f6655;
+}
+
+.rel_clm .cntnt {
+	font-size: 13px;
 }
