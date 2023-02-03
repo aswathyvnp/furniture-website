@@ -66,9 +66,6 @@ h1 {
 	align-items: center;
 	gap: 70px;
 }
-/* .sub_main {
-	padding: 30px 0;
-} */
 
 .space_head {
 	margin: 33px 0;
@@ -188,4 +185,22 @@ h1 {
 
 .rel_clm .cntnt {
 	font-size: 13px;
+}
+
+@media screen and (max-width: 972px) and (min-width: 345px) {
+	.main {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.clm {
+		width: 100%;
+	}
+
+	.main_head1 {
+		display: block;
+	}
 }
